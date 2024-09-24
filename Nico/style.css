@@ -1,0 +1,43 @@
+body {
+    background-color: #ce7e07; 
+    color: #c3ff0d; 
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #067330; 
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    animation: colorChange 5s infinite; 
+}
+
+@keyframes colorChange {
+    0% { color: #FF5733; }
+    25% { color: #33FF57; }
+    50% { color: #3357FF; }
+    75% { color: #FF33A8; }
+    100% { color: #FF5733; }
+}
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #1e0de0;
+}
+
+
